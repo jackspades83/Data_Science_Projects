@@ -1,0 +1,13 @@
+Couple of Comments:-
+
+1) Churn_Customer_Toolkit.py has three dependencies (df_tel.csv, X_train.csv & XGBBoost.pickle)
+Due to a lack of time I could not change the code so that the dependencies were reduced to only 1 (Pickle file).
+Churn_Customer_Toolkit.py is just the GUI portion of the assignment. This portion is also present in the original <ENSEMBLE_TECHNIQUES_UtathyaGhosh.ipynb>. I removed the GUI portion in case the checker wants to observe this part separately without having to run the full Python Notebook.
+
+2) <Windows_No_snapshot.jpg>, <Windows_Yes_snapshot.jpg>, <Linux_Yes_snapshot.jpg> and <Linux_No_snapshot.jpg> are proof that the GUI part works, in Windows and Linux. I could not verify in a MacOS.
+
+3) Please note the GUI part needs tkinter. To install tkinter in Linux use the command: -
+sudo apt-get install python3-tk -  For Python3
+sudo apt-get install python-tk - For Python2
+
+4) Finally the Original Notebook <ENSEMBLE_TECHNIQUES_UtathyaGhosh.ipynb>, needs the csv files that was supplied by the assignment . It has no other dependencies. The Pickle file is created by the Notebook itself so after running the entire notebook one file called <XGBBoost.pickle> will be created if it is already not present in the directory.
